@@ -1,0 +1,102 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 35px;
+    background-color: #F8F8F8;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.logo{
+    font-size: 32px;
+    font-weight: 800;
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+    
+}
+nav a:hover{
+    color: red;
+}
+
+.main{
+    margin-top: 70px;
+    display: flex;
+    align-items: centre;
+    justify-content: space-between;
+    height: 570px;
+}
+
+.main h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(247, 4, 4, 0.575);
+}
+.main h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: black;
+}
+.main span{
+    color: rgba(247, 4, 4, 0.651);
+}
+
+.main p{
+    color: gray;
+    margin-bottom: 40px;
+}
+.buttons{
+   display: flex;
+   gap: 40px;
+   font-size:15px;
+   
+}
+.primary{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 20px;
+    
+    
+}
+.secondary{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    padding: 20px;
+    
+}
+.primary:hover{
+    color:rgba(247, 4, 4, 0.651);
+}
+.secondary:hover{
+    color: rgba(247, 4, 4, 0.651);
+}
+.buttons button{
+    border-radius: 300px;
+    padding: 20px;
+    border-color: black;
+    border-style: solid;
+}
+
+footer{
+    text-align: center;
+    font-size: 15PX;
+    font-weight: 600;
+}
